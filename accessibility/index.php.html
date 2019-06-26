@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html amp="" lang="en">
+    <head>
+        <title>The Counter | Accessibility</title>
+        <meta charset="utf-8"/>
+        <meta content="width=device-width,minimum-scale=1,initial-scale=1" name="viewport"/>
+        <meta content="Thu, 10 Jan 2019 16:25:13 -0380" name="date"/>
+        
+        <meta content="The Counter® is firmly committed to comply with the Americans with Disabilities Act.  As part of this commitment, we are continually improving our website to make it as accessible as possible. If you experience problems accessing the website with type assistance technology, please contact 1-866-452-4252 (866-4-KAHALA) for help." name="description"/>
+        
+        <link href="index.php.html" rel="canonical"/>
+
+        <script async="" src="https://cdn.ampproject.org/v0.js"></script>
+        <script async="" custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+        <script async="" custom-element="amp-video" src="https://cdn.ampproject.org/v0/amp-video-0.1.js"></script>
+        <script async="" custom-element="amp-iframe" src="https://cdn.ampproject.org/v0/amp-iframe-0.1.js"></script>
+         <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+
+        <script async="" custom-element="amp-bind" src="https://cdn.ampproject.org/v0/amp-bind-0.1.js"></script>
+        <script async="" custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+
+        <script async="" custom-element="amp-accordion" src="https://cdn.ampproject.org/v0/amp-accordion-0.1.js"></script>
+        <script async="" custom-element="amp-selector" src="https://cdn.ampproject.org/v0/amp-selector-0.1.js"></script>
+        <style amp-boilerplate="">
+body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}
+</style>
+<noscript>
+<style amp-boilerplate="">body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+</noscript>
+        <link href="../favicon.png" rel="shortcut icon" type="image/x-icon"/>
+        <style amp-custom="" type="text/css">/* CSS Normalizer */
+html { line-height: 1.15; -webkit-text-size-adjust: 100%; } body { margin: 0; } h1 { font-size: 2em; margin: 0.67em 0; } hr { box-sizing: content-box; height: 0; overflow: visible; } pre { font-family: monospace, monospace; font-size: 1em; } a { background-color: transparent; } abbr[title] { border-bottom: none; text-decoration: underline; text-decoration: underline dotted; } b, strong { font-weight: bolder; } code, kbd, samp { font-family: monospace, monospace; font-size: 1em; } small { font-size: 80%; } sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: baseline; } sub { bottom: -0.25em; } sup { top: -0.5em; } img { border-style: none; } button, input, optgroup, select, textarea { font-family: inherit; font-size: 100%; line-height: 1.15; margin: 0; } button, input { overflow: visible; } button, select { text-transform: none; } button, [type="button"], [type="reset"], [type="submit"] { -webkit-appearance: button; } button::-moz-focus-inner, [type="button"]::-moz-focus-inner, [type="reset"]::-moz-focus-inner, [type="submit"]::-moz-focus-inner { border-style: none; padding: 0; } button:-moz-focusring, [type="button"]:-moz-focusring, [type="reset"]:-moz-focusring, [type="submit"]:-moz-focusring { outline: 1px dotted ButtonText; } fieldset { padding: 0.35em 0.75em 0.625em; } legend { box-sizing: border-box; color: inherit; display: table; max-width: 100%; padding: 0; white-space: normal; } progress { vertical-align: baseline; } textarea { overflow: auto; } [type="checkbox"], [type="radio"] { box-sizing: border-box; padding: 0; } [type="number"]::-webkit-inner-spin-button, [type="number"]::-webkit-outer-spin-button { height: auto; } [type="search"] { -webkit-appearance: textfield; outline-offset: -2px; } [type="search"]::-webkit-search-decoration { -webkit-appearance: none; } ::-webkit-file-upload-button { -webkit-appearance: button; font: inherit; } details { display: block; } summary { display: list-item; } template { display: none; } [hidden] { display: none; }
+
+            
+/* Font URLs */
+@font-face { font-family: 'asphalts_brushregular'; src: url('../assets/fonts/asphalts_brush.eot'); src: url('../assets/fonts/asphalts_brush.eot#iefix') format('embedded-opentype'), url('../assets/fonts/asphalts_brush.woff2') format('woff2'), url('../assets/fonts/asphalts_brush.woff') format('woff'), url('') format('truetype'), url('../assets/fonts/asphalts_brush.svg#asphalts_brushregular') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'ropa_sansregular'; src: url('../assets/fonts/ropa_sans_regular.eot'); src: url('../assets/fonts/ropa_sans_regular.eot#iefix') format('embedded-opentype'), url('../assets/fonts/ropa_sans_regular.woff2') format('woff2'), url('../assets/fonts/ropa_sans_regular.woff') format('woff'), url('') format('truetype'), url('../assets/fonts/ropa_sans_regular.svg#ropa_sansregular') format('svg'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'veneerregular'; src: url('../assets/fonts/veneer.eot'); src: url('../assets/fonts/veneer.eot#iefix') format('embedded-opentype'), url('../assets/fonts/veneer.woff2') format('woff2'), url('../assets/fonts/veneer.woff') format('woff'), url('') format('truetype'), url('../assets/fonts/veneer.svg#veneerregular') format('svg'); font-weight: normal; font-style: normal; }
+
+            
+/* CSS Grid */
+.left { text-align: left; }
+.right { text-align: right; }
+.center { text-align: center; margin-left: auto; margin-right: auto; }
+.justify { text-align: justify; }
+.container { width: 90%; margin-left: auto; margin-right: auto; }
+.row { position: relative; width: 100%; }
+.row [class*="col"] { float: left; min-height: 0.125rem; margin: 0 2%; }
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 { width: 100%; /* width: 96%; */ }
+.row .col-12 { margin: 0; }
+.col-1-sm { width: 4.33%; }
+.col-2-sm { width: 12.66%; }
+.col-3-sm { width: 21%; }
+.col-4-sm { width: 29.33%; }
+.col-5-sm { width: 37.66%; }
+.col-6-sm { width: 46%; }
+.col-7-sm { width: 54.33%; }
+.col-8-sm { width: 62.66%; }
+.col-9-sm { width: 71%; }
+.col-10-sm { width: 79.33%; }
+.col-11-sm { width: 87.66%; }
+.col-12-sm { width: 100%; /* width: 96% */ }
+.row::after { content: ""; display: table; clear: both; }
+.hidden-sm { display: none; }
+@media only screen and (min-width: 33.75em) {  /* 540px */ .container { width: 80%; }}
+@media only screen and (min-width: 45em) { /* 720px */ .col-1 { width: 4.33%; } .col-2 { width: 12.66%; } .col-3 { width: 21%; } .col-4 { width: 29.33%; } .col-5 { width: 37.66%; } .col-6 { width: 46%; } .col-7 { width: 54.33%; } .col-8 { width: 62.66%; } .col-9 { width: 71%; } .col-10 { width: 79.33%; } .col-11 { width: 87.66%; } .col-12 { width: 100%; /* width: 96%; */ } .hidden-sm { display: block; } }
+@media only screen and (min-width: 60em) { /* 960px */ .container { width: 75%; max-width: 60rem; } }
+
+            
+/* The Counter Stylesheet */
+html, body { font-size: 100%; height: 100%; }
+body { background: #cdbca2; color: #182D35; font-family: "ropa_sansregular", arial; font-size: 62.5%; font-weight: 400; overflow-x: hidden; }
+body section { position: relative; }
+body section[class*='section-'] { background-position: center center; background-size: cover; }
+nav { background-color: rgba(255, 255, 255, 0.8); height: 10em; left: 0; position: fixed; top: 0; width: 100%; z-index: 11; }
+nav .row { height: inherit; max-width: 1260px; margin: auto; }
+nav .row [class*="col"] { height: inherit; }
+nav .nav-logo { position: relative; }
+nav .nav-logo .logo-link { display: block; height: inherit; max-width: 156px; position: relative; }
+nav .nav-logo .logo-link > amp-img { height: 8em; width: auto; margin-top: 1em; }
+nav .nav-logo .logo-link > img { height: 8em; width: auto; margin-top: 1em; }
+nav .nav-logo .skip { opacity: 0; position: absolute; left: 0; bottom: -18px; height: 18px; padding: 4px 8px; box-sizing: border-box; background-color: #630426; pointer-events: none; color: #ffffff; text-decoration: none; }
+nav .nav-logo .skip:focus { opacity: 1; }
+nav amp-selector { pointer-events: none; }
+nav amp-selector > * { pointer-events: all; }
+nav amp-selector[layout="fixed"] { position: fixed; left: 0; height: inherit; width: 100%; user-select: none; }
+nav .nav-group .nav-toggle { position: fixed; height: 7em; width: 7em; right: 0; top: 0; cursor: pointer; display: none; outline: none; }
+nav .nav-group .nav-toggle:focus { outline: -webkit-focus-ring-color auto 5px; }
+nav .nav-group .nav-toggle .toggle-box { width: 3em; height: 3em; top: 2em; left: 2em; position: absolute; }
+nav .nav-group .nav-toggle .toggle-box .nav-icon { width: 100%; height: 3px; background-color: #630426; top: 50%; margin-top: -1.5px; display: block; position: absolute; }
+nav .nav-group .nav-toggle .toggle-box .nav-icon:before, nav .nav-group .nav-toggle .nav-icon:after { content: ''; width: inherit; height: inherit; background-color: inherit; position: absolute; left: 0; }
+nav .nav-group .nav-toggle .toggle-box .nav-icon:before { top: -1em; }
+nav .nav-group .nav-toggle .toggle-box .nav-icon:after { top: 1em; }
+nav .nav-group .nav-list { display: inline-block; height: 10em; user-select: none; }
+nav .nav-group .nav-list ul { display: table-cell; height: inherit; margin: 0; padding: 0; vertical-align: middle; }
+nav .nav-group .nav-list ul li { display: inline-block; margin-right: 3em; }
+nav .nav-group .nav-list ul li a { color: inherit; font-family: "veneerregular", Impact; font-size: 2.2em; text-transform: uppercase; text-decoration: none; }
+nav .nav-group .nav-list ul li a span { display: inline-block; line-height: 1em; vertical-align: middle; }
+nav .nav-group .nav-list ul li a span:after { content: ''; display: block; height: 2px; background-color: transparent; transition: all 0.25s ease-in-out; }
+nav .nav-group .nav-list ul li a span:hover:after { background-color: #182D35; }
+footer { padding: 64px 0; }
+footer ul { list-style: none; padding: 0; }
+footer .social img { display: block; margin: auto; }
+footer .social ul { text-align: center; }
+footer .social ul li { display: inline-block; width: 24px; height: 24px; margin: 12px; vertical-align: middle; }
+footer .links ul { margin-left: 64px; }
+footer .links ul li { width: 30%; display: inline-block; margin-bottom: 20px; vertical-align: top; }
+footer .links ul li a { font-family: "veneerregular", Impact; font-size: 22px; color: inherit; text-decoration: none; }
+
+/* AMP Carousel */
+amp-carousel { margin-bottom: -20px; margin-top: 10em; }
+amp-carousel .amp-carousel-slide { background-position: center center; background-size: cover; }
+amp-carousel .amp-carousel-button { cursor: pointer; }
+.indicators { position: absolute; bottom: 12px; width: 100%; text-align: right; z-index: 1; padding: 0 12px; box-sizing: border-box; pointer-events: none; }
+.indicators li { opacity: 0.25; border-radius: 50%; cursor: pointer; display: inline-block; width: 19px; height: 19px; background-color: #ffffff; margin: 4px; pointer-events: all; }
+.indicators li.active { opacity: 1; }
+
+/* effects */
+.smooth { -webkit-transition: all 0.25s ease-in-out; -moz-transition: all 0.25s ease-in-out; -o-transition: all 0.25s ease-in-out; transition: all 0.25s ease-in-out; }
+.hide-desktop { display: none; }
+.hide-mobile  { display: block; }
+.hide-both  { display: none; }
+
+/* ADA special styling */
+.adaBadge { text-align: center; padding: 0 0 128px; }
+.adaBadge a { display: inline-block; }
+.adaBadge a amp-img { width: 102px; margin: 0 auto; }
+
+
+/* media queries */
+@media (max-width: 1024px) {
+    nav { height: 7em; }
+    nav .nav-logo .logo-link > amp-img { height: 5em; }
+    nav .nav-logo .logo-link > img { height: 5em; }
+    nav .row .nav-group .nav-list { height: 7em; }
+    nav .row .nav-group .nav-list ul li { margin-right: 1em; }
+    header { padding-top: 7em; }
+    amp-carousel { margin-top: 7em; }
+}
+@media (max-width: 767px){
+    nav amp-selector[layout="fixed"] { position: initial; }
+    nav amp-selector { height: 1000px; padding: 70px 0 0; }
+    nav .nav-logo .logo-link { max-width: 100px; }
+    nav .row [class*="col"] { display: block; width: 100%; }
+	nav .row .nav-group { margin: 0; height: auto; }
+	nav .nav-group .nav-toggle { display: inline-block; }
+	nav .row .nav-group .nav-list { display: none; height: auto; background-color: rgba(255, 255, 255, 0.8); padding-bottom: 1em; }
+	nav .row .nav-group .nav-list ul { display: block; text-align: center; height: auto; }
+	nav .row .nav-group .nav-list ul li { display: block; margin: 0; }
+	nav .row .nav-group .nav-list ul li a {	display: block; padding: 0.25em 0; }
+    nav .row .nav-group .nav-toggle[aria-selected="true"] ~ .nav-list { display: block; }
+    nav .row .nav-group .nav-toggle[aria-selected="true"] .nav-icon:before { display: none; }
+    nav .row .nav-group .nav-toggle[aria-selected="true"] .nav-icon:after { display: none; }
+    section .row div[class*="col"] { margin: 0; }
+    section .row div[class*="-sm"] { margin: 0 2%; }
+    footer [class*='col'].social { max-width: 240px; margin: 0 auto; float: initial; }
+    footer .links ul { margin: 5% 0 0 15%; }
+    footer .links ul li { width: 45%; }
+    
+    /* mobile effects */
+    .hide-desktop { display: block; }
+    .hide-mobile  { display: none; }
+    
+    /* AMP Carousel */
+    .indicators { display: none; }
+}
+
+            /* CSS Generated by PAGE-BUILDER-CSS-AMP format script */
+             .section-1 { background-color: #ffffff;  padding: 128px 0; }
+
+
+
+.accessibility .row { max-width: 640px; margin: auto; }
+.accessibility p { font-size: 18px; padding: 0 12px; }
+
+@media (max-width: 767px){
+
+}
+
+
+
+amp-carousel[layout="responsive"] amp-img { height: initial; }
+        </style>
+        
+        
+    </head>
+    <body>
+        <div class="wrapper">
+            <nav>
+    <div class="row">
+                
+        <div class="nav-logo col-2">
+            <a class="skip" href="index.php.html#mainwrap">skip to content</a>
+            <a class="logo-link" href="../index.php.html">
+                <amp-img alt="AMP" height="80" layout="fill" noloading="" src="../assets/images/Logo_2Color.svg" width="156"/>
+            </a>
+        </div>
+        <div class="nav-group col-10 right">
+            <amp-selector height="1000px" layout="fill" multiple="" width="1000px">
+                                <div class="nav-toggle" option="1">
+                    <div class="toggle-box">
+                        <span class="nav-icon"></span>
+                    </div>
+                </div>
+                <div class="nav-list">
+                    <ul>
+                                                                                                            	                    	                        <li>
+                            <a href="../menu/index.php.html" target="_self">
+                                <span>menu</span>
+                            </a>
+                       </li>
+                                                                                        	                    	                        <li>
+                            <a href="../locator/index.php-brand=cb&mode=desktop&pagesize=5&latitude=&longitude=&q=.html" target="_self">
+                                <span>locations</span>
+                            </a>
+                       </li>
+                                                                                        	                    	                        <li>
+                            <a href="https://order.thecounter.com/" target="_blank">
+                                <span>order online</span>
+                            </a>
+                       </li>
+                                                                                        	                    	                        <li>
+                            <a href="../catering/index.php.html" target="_self">
+                                <span>catering</span>
+                            </a>
+                       </li>
+                                                                                        	                    	                        <li>
+                            <a href="../loyalty/index.php.html" target="_self">
+                                <span>loyalty</span>
+                            </a>
+                       </li>
+                                                                                        	                    	                        <li>
+                            <a href="https://store.thecounter.com/" target="_self">
+                                <span>gift cards</span>
+                            </a>
+                       </li>
+                                                                                        	                    	                        <li>
+                            <a href="https://www.thecounterfranchise.com/" target="_blank">
+                                <span>franchise</span>
+                            </a>
+                       </li>
+                                        </ul>
+                </div>
+            </amp-selector>
+        </div>
+    </div>
+</nav>
+            
+            
+            <main id="mainwrap">
+                                
+    <section class="section-1 accessibility">
+                        
+        <div class="row">
+                                                    <div class="col-12">
+                                
+                                                                  
+                                                                
+                
+                                                                                                                        
+                                        <p>The Counter is firmly committed to compliance with the Americans with Disabilities Act. As part of this commitment, we are continually improving our website to make it as accessible as possible. If you experience problems accessing the website with type assistive technology, please contact 1-866-452-4252 (866-4-KAHALA) for help.</p>
+                                     
+                
+                                            </div>
+                    </div>
+            </section>
+    </main>
+
+
+            <footer>
+    <div class="row">
+                
+        <div class="nav-logo col-3 social">
+            <amp-img alt="AMP" height="80" layout="responsive" noloading="" src="../assets/images/Logo_2Color.svg" width="156">
+            </amp-img>
+            <ul>
+                                        <li>
+                    <a href="https://www.facebook.com/TheCounter/" target="_blank">
+                        <amp-img alt="AMP" height="24" layout="responsive" noloading="" src="../assets/images/facebook_navy.svg" width="24">
+                        </amp-img>
+                    </a>
+               </li>
+                            <li>
+                    <a href="https://twitter.com/counterburger?lang=en" target="_blank">
+                        <amp-img alt="AMP" height="24" layout="responsive" noloading="" src="../assets/images/twitter_navy.svg" width="24">
+                        </amp-img>
+                    </a>
+               </li>
+                            <li>
+                    <a href="https://www.instagram.com/thecounterburger/?hl=en" target="_blank">
+                        <amp-img alt="AMP" height="24" layout="responsive" noloading="" src="../assets/images/instagram_navy.svg" width="24">
+                        </amp-img>
+                    </a>
+               </li>
+                        </ul>
+        </div>
+        <div class="nav-group col-9 links">
+            <ul>
+                                        <li>
+                    <a href="../index.php.html" target="_self">home</a>
+               </li>
+                            <li>
+                    <a href="../menu/index.php.html" target="_self">menu</a>
+               </li>
+                            <li>
+                    <a href="../locator/index.php-brand=cb&mode=desktop&pagesize=5&latitude=&longitude=&q=.html" target="_self">locations</a>
+               </li>
+                            <li>
+                    <a href="https://order.thecounter.com/" target="_blank">order online</a>
+               </li>
+                            <li>
+                    <a href="../catering/index.php.html" target="_self">catering</a>
+               </li>
+                            <li>
+                    <a href="../index.php.html#loyalty" target="_self">loyalty</a>
+               </li>
+                            <li>
+                    <a href="../join-our-team/index.php.html" target="_self">join our team</a>
+               </li>
+                            <li>
+                    <a href="../contact/index.php.html" target="_self">contact</a>
+               </li>
+                            <li>
+                    <a href="../pressroom/index.php.html" target="_self">press</a>
+               </li>
+                            <li>
+                    <a href="https://www.thecounterfranchise.com/" target="_blank">franchise</a>
+               </li>
+                            <li>
+                    <a href="../privacy/index.php.html" target="_self">privacy</a>
+               </li>
+                            <li>
+                    <a href="https://www.valuteccardsolutions.com/Customers/balance.aspx" target="_blank">card balance</a>
+               </li>
+                            <li>
+                    <a href="index.php.html" target="_self">accessibility</a>
+               </li>
+                            <li>
+                    <a href="../terms/index.php.html" target="_self">terms and conditions</a>
+               </li>
+                        </ul>
+        </div>
+    </div>
+</footer>
+                        
+            <div class="adaBadge">
+                            <a href="https://achecker.kahalamgmt.com/checker/index.php?uri=referer&gid=WCAG2-AA&id=1230" target="_blank" title="ADA Checker">
+                                        <amp-img alt="WCAG 2.0" height="32" layout="responsive" src="https://apps.kahalamgmt.com/images/icon_W2_aa.jpg" width="102"/> 
+                                        </a>
+                    </div>
+    
+            
+
+<!-- Google Tag Manager GLOBAL-AMP TAG-->
+<amp-analytics config="https://www.googletagmanager.com/amp.json?id=GTM-WQZ5GWG&gtm.url=SOURCE_URL" data-credentials="include"></amp-analytics>
+
+
+            
+        </div>
+    </body>
+</html>
